@@ -28,7 +28,6 @@ if (operationPrompt === '+') {
 
     if (Number.isFinite(firstNumber) && Number.isFinite(secondNumber)) {
         result = firstNumber / secondNumber;
-
     }
     console.log(firstOperandPrompt + operationPrompt + secondOperandPrompt + ' = ' + result);
 } else {
