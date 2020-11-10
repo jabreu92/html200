@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Lesson 4 Regular Challenge 1</title>
+   </head>
+   <body>
+      <h1>Welcome to the Lesson 4 Regular Challenge 1</h1>
+      <p>Click the button to trigger a function that takes a number and squares it</p>
+      <button onclick="myFunction()">Click me</button>
+      <script>
+         function myFunction() {
+         let userPrompt = prompt("Please enter a number to square: ");
+         let userNumber = squareIt(Number(userPrompt));
+         alert(`Here is your input number ${Number(userPrompt)}  and here it is squared : ${userNumber}`);
+         }
+         function squareIt(number){
+             return number*number;
+         }
+      </script>
+   </body>
+</html>
